@@ -1,0 +1,29 @@
+<html>
+
+<head>
+    <script>
+        function add() {
+            var x = Number(document.getElementById("txtx").value);
+
+            var y = Number(document.getElementById("txty").value);
+            var z = x + y;
+            document.getElementById("divresult").innerHTML = z;
+        } 
+    </script>
+</head>
+
+<body>
+    <label> x: </label>
+    <input type="text" id="txtx" />
+    <br>
+    <label> y: </label>
+    <input type="text" id="txty" />
+    <br>
+    <button onclick="add();"> ADD</button>
+    <br>
+    <label> result </label>
+    <div id="divresult"></div>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Maha Ravi's INFO1311 HOME PAGE</title>
+  <meta charset="utf-8">
+  <style>
+  <link rel ="stylesheet" href="module3/assignment3.css">
+</head>
+  <body>
+  </style>
+<div id="container">
+
+<!--Maha Ravi
+    default.htm
+    INFO_ 1311_5A
+    Kuisma
+    Thursday, September 14 2017
+-->
+
+<header>
+  <h1>Maharavi's INFO 1311 Web Site</h1>
+  
+  <h2><img src="Education goals.photo" alt="Education" width="200" height="40"/>
+   <code><ol>
+   <li>education goals</li>
+   <ol>
+   <li>Bachelor's of Commerce</li>
+   <li>computer course</li>
+   </ol>
+   <li>hobbies </li>
+   <ol>
+   <li>watching tv 
+   <li>walking in trend mill</li>
+   </ol>
+   <li>interest </li>
+   <ol>
+   <li>going india</li>
+   <div title "This is a tooltip"
+   li a{ 
+       display : block;
+       color: white;
+       text-align: center;
+       padding: 16px
+       text-decoration:none;
+   }
+   hover {
+       background-color:green;}
+
+   /* hover is 'state'*/

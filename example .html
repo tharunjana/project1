@@ -1,0 +1,33 @@
+<form action="" name="priceCalc" method="POST">
+        I Am Paying For :
+        <select name="product">
+            <option>Select Item</option>
+             <option value="15">item 1 - $15.00</option>
+             <option value="35">item 2 - $35.00</option>
+             <option value="35">item 3 - $35.00</option>
+             <option value="29.90">item 4 - $29.90</option>
+             <option value="29.90">item 5 - $29.90</option>
+             <option value="26.90">item 6 - $26.90</option>
+             <option value="32.90">item 7 - $32.90</option>
+             <option value="59.90">item 8 - $59.90</option>
+             <option value="59.90">item 9 - $59.90</option>
+          </select>
+          <br />
+          <br />
+      
+          Quantity :
+        <select name="quantity" >
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+          </select>
+          <br />
+          <br />
+          Please deposit the freight free full total of <br />
+          <span style="color:red; font-size:18px;" id="prices">$</span> into our account : 
+          <br />
+          <input type="hidden" id="itemname" name = "itemname" value= "">
+          <input type="submit" name="submit" value="BUY NOW!" />
+      </form>
